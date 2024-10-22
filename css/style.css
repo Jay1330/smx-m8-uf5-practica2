@@ -1,0 +1,95 @@
+ /* Estilos del menú */                  /*ESTIL EXTERN*/
+ nav {
+  background-color: #55c740 ;         /*BACKGROUND-COLOR*/
+  padding: 10px;                        /*PADDING*/
+  border-radius: 20px;
+}
+nav ul {
+  display: flex; 
+  justify-content: space-around; 
+  list-style-type: none; 
+  margin: 0;                            /*MARGIN*/
+  padding: 0;       
+  width: 100%;                          /*WIDTH*/
+}
+nav ul li a {
+  color: white; 
+  text-decoration: none;                 /*TEXT-DECORATION (Quitar subrayado) */
+  padding: 10px 15px; 
+}
+nav ul li a:hover {
+  background-color:#539039;           /*(Fondo al pasar el ratón)*/
+  border-radius: 10px;                  /*BORDER*/
+}
+
+/*ESTILOS DEL BODY*/
+body{
+  background-color: burlywood;
+  margin: 20px;
+}
+
+/*ESTILOS DEL BORDE DEL TITULO*/
+h1 {                                    /*ELEMENT*/
+    text-align: center;
+    color: blanchedalmond;            /*COLOR*/
+    text-decoration-line: overline;
+    text-shadow:
+          -2px -2px 0px black,
+           2px -2px 0px black,
+          -2px  2px 0px black,
+           2px  2px 0px black;
+  
+  }
+
+  /*ESTILOS DEL BORDE DE LAS LETRAS + (LINKS)*/
+.color-borde, 
+.style-link {                           /*ELEMENT, ELEMENT*/
+  text-shadow:
+          -2px -2px 0px rgb(255, 255, 255),
+           2px -2px 0px rgb(255, 255, 255),
+          -2px  2px 0px rgb(255, 255, 255),
+           2px  2px 0px rgb(255, 255, 255);
+}
+                                        /*ELEMENT + ELEMENT*/
+img + br {
+  display: none; /* Oculta el salto de línea */
+}     
+
+/*ESTILOS DEL CLASS-LINK*/
+.style-link{                /*.ELEMENT (CLASS)*/
+  text-decoration: none;
+  color: inherit;
+}
+.style-link:hover{
+  color: red;
+  text-decoration: underline;
+}
+/*+ LIST*/
+.list-link li::marker {
+    content: " ↪ "; 
+    font-size: 1.5em;
+
+}
+
+/*ESTILO DE LA LISTA ORDENADA*/         /*ELEMENT.ELEMENT (CLASS)*/
+li.ruman{
+  list-style-type: upper-roman;
+  font-size: 15px;                      /*FONT-SIZE*/
+}
+
+/**/
+p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul li{                                  /*ELEMENT ELEMENT*/
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
